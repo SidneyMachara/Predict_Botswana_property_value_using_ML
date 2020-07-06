@@ -29,7 +29,7 @@ def predict_property_price():
     bedrooms = float(request.form["num_bedrooms"])
     bathrooms = float(request.form["num_bathrooms"])
 
-    response = jsonify({"estimated_price": utils.get_estimate_price(location, plot_size, bedrooms, bathrooms)})
+    response = jsonify({"price_estimate": utils.get_estimate_price(location, plot_size, bedrooms, bathrooms)})
     response.headers.add("Access-Control-Allow-Origin", "* ")
 
     return response

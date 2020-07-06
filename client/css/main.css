@@ -1,0 +1,71 @@
+body, html {
+  background-image: url("../assets/house.jpg");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    .bg-overlay {
+     background-color: rgba(0,0,0,0.7);
+height: 100vh;
+width: 100vw;
+    }
+
+    .bg-transparent{
+      background-color: transparent;
+    }
+
+    label{
+       color: white;
+       margin-top: 25px;
+    }
+
+    .m-btn{
+      background-color: #00695c;
+      color:white;
+      width: 100%;
+      padding:15px;
+    }
+    .m-btn:hover{
+      color:white;
+        background-color: #26a69a !important;
+    }
+
+    input ,select{
+      background-color: #b2dfdb !important;
+    }
+
+    .bg-teal {
+      background-color: #e0f2f1;
+    }
+
+    .price_box {
+      background-color: transparent;
+      border: 0px solid transparent;
+    }
+
+    /* reset bootstrap */
+    textarea:hover,
+    select:hover,
+    input:hover,
+    textarea:active,
+    select:active,
+    input:active,
+    textarea:focus,
+    select:focus,
+    input:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+    {
+        outline:0px !important;
+        -webkit-appearance:none;
+        box-shadow: none !important;
+    }
